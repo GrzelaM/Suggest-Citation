@@ -1,0 +1,1 @@
+# WSTĘPNE PARSOWANIE (PHP) - zamieniamy pliki .xml na .txt
