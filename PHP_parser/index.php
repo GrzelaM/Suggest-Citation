@@ -7,14 +7,11 @@
 <?php
 	ini_set('max_execution_time', '0');
     include_once("class.filter.php");
-	$host = 'localhost';
-	$db   = 'test';
-	$user = 'root';
-    $pass = '';
-    $charset = 'utf8mb4';
-	$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+	include_once("class.database.php");
 
-	for($it = 1; $it <= 3; $it++){
+	$data_base = new DataBase();
+
+	for($it = 1; $it <= 35; $it++){
 		$file = "Input_file/1 (".$it.").xml";
 		echo $it." *** ";
 		//Obiekt do parsowania XML
@@ -67,15 +64,13 @@
 			if ($handle = fopen($myfile, "r")) {
 				$data = fread($handle, filesize($myfile));
 				try {
-					$pdo = new PDO($dsn, $user, $pass);
+					$pdo = new PDO($data_base->getDSN(), $data_base->getUser(), $data_base->getPassword());
 					$statement = $pdo->prepare("INSERT INTO test (text,howManyQuotes) values (?,$counter)");
             		$statement->execute([$data]);
 				} catch (PDOException $ex) {
 					echo "Błąd";
 				}
 			}
-			// echo $counter; // pomocnicze wyświetlam liczbę cytatów
-			// $dom->save("nowy.txt"); // jakbyśmy chcieli zapisać nową wersję xml 
 		}
 	}
 ?>
