@@ -1675,7 +1675,6 @@ compounds	compound	NNS	O
 
 The	the	DT	O
 inÂ	inÂ	NNP	O
- 	  	_SP	O
 vitro	vitro	FW	O
 inhibitory	inhibitory	JJ	O
 activities	activity	NNS	O
@@ -3483,7 +3482,6 @@ described	describe	VBN	O
 by	by	IN	O
 Ellman	Ellman	NNP	O
 etÂ	etÂ	NNP	O
- 	  	_SP	O
 al	al	NNP	O
 .	.	.	B
 .	.	.	O
@@ -4195,7 +4193,6 @@ established	establish	VBN	O
 by	by	IN	O
 Di	Di	NNP	O
 etÂ	etÂ	NNP	O
- 	  	_SP	O
 al	al	NNP	O
 .	.	NNP	O
 
@@ -4265,7 +4262,6 @@ established	establish	VBN	O
 by	by	IN	O
 Di	Di	NNP	O
 etÂ	etÂ	NNP	O
- 	  	_SP	O
 al	al	NNP	O
 .	.	NNP	O
 
@@ -4378,7 +4374,6 @@ validation.aAdapted	validation.aadapte	VBN	O
 from	from	IN	O
 Di	Di	NNP	O
 etÂ	etÂ	NNP	O
- 	  	_SP	O
 al	al	NNP	O
 .	.	.	O
 
@@ -5962,7 +5957,6 @@ acute	acute	JJ	O
 toxicity	toxicity	NN	O
 study	study	NN	O
 inÂ	inÂ	NNP	O
- 	  	_SP	O
 vivo	vivo	NN	O
 to	to	TO	O
 further	further	RB	O

@@ -500,11 +500,9 @@ the	the	DT	O
 synthesis	synthesis	NN	O
 and	and	CC	O
 inÂ	inÂ	NNP	O
- 	  	_SP	O
 vitro	vitro	FW	O
 and	and	CC	O
 inÂ	inÂ	NNP	O
- 	  	_SP	O
 vivo	vivo	NN	O
 evaluation	evaluation	NN	O
 of	of	IN	O
@@ -542,7 +540,6 @@ preclinical	preclinical	JJ	O
 characterisation	characterisation	NN	O
 using	use	VBG	O
 inÂ	inÂ	NNP	O
- 	  	_SP	O
 vivo	vivo	NN	O
 models	model	NNS	B
 .	.	.	O
@@ -673,7 +670,6 @@ design	design	NN	O
 synthesis	synthesis	NN	O
 ,	,	,	O
 inÂ	inÂ	NNP	O
- 	  	_SP	O
 vitro	vitro	FW	O
 CA	CA	NNP	O
 inhibition	inhibition	NN	O
@@ -1989,7 +1985,6 @@ compounds	compound	NNS	O
 were	be	VBD	O
 investigated	investigate	VBN	O
 inÂ	inÂ	NNP	O
- 	  	_SP	O
 vitro	vitro	FW	O
 as	as	IN	O
 inhibitors	inhibitor	NNS	O
@@ -4592,7 +4587,6 @@ and	and	CC	O
 hCA	hCA	NNP	O
 IX	IX	NNP	O
 inÂ	inÂ	NNP	O
- 	  	_SP	O
 vitro	vitro	FW	O
 .	.	.	O
 
@@ -4683,7 +4677,6 @@ results	result	NNS	O
 from	from	IN	O
 both	both	CC	O
 inÂ	inâ	JJ	O
- 	  	_SP	O
 vitro	vitro	FW	O
 inhibition	inhibition	NN	O
 studies	study	NNS	O
