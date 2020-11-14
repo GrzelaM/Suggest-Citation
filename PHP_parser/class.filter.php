@@ -5,7 +5,7 @@ class Filter{
     private $r2;
     private $result; 
  
-    function countDigits($text)
+    public function countDigits($text)
     {
         $r1 = preg_match_all( "/[0-9]/", $text); // ile liczb pomiędzy <p>
         $r2 = str_word_count($text); // ile słów pomiędzy <p>
